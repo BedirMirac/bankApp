@@ -1,8 +1,10 @@
 # bankApp 
-Descriptions available in Turkish, English, German, and Italian:
 
 
-Türkçe:
+# Descriptions available in Turkish, English, German, and Italian:
+
+
+# Türkçe:
 
 Bu uygulamanın amacı 3 farklı parabiriminde bir banka similasyonu oluşturup hesapları rahat ve görünür şekilde yapabilmektir.
 
@@ -22,7 +24,7 @@ API key aktifleştirme işlemini başarılı bir şekilde yapamadıysanız basit
 Uygulamayı kullandığınız için teşekkür ederim. Umarım finansal anlamda işinize yaramıştır :)
 
 
-English:
+# English:
 The purpose of this application is to create a bank simulation in three different currencies, making calculations easy and visible.
 
 You can adjust the code as you like and manage your finances using the exchange rates you prefer before making any transactions with your real bank. This way, you can keep your expenses more measured and prepare yourself for possible economic scenarios.
@@ -36,7 +38,7 @@ If you are unable to activate the API key successfully, I'm confident you can re
 Thank you for using this application. I hope it has been helpful to you financially! :)
 
 
-German:
+# German:
 Zweck dieser Anwendung ist es, eine Bankensimulation in drei verschiedenen Währungen zu erstellen, um Berechnungen einfach und übersichtlich zu gestalten.
 
 Du kannst den Code nach Belieben anpassen und deine Finanzen mit den gewünschten Wechselkursen verwalten, bevor du Transaktionen mit deiner realen Bank durchführst. Auf diese Weise kannst du deine Ausgaben besser im Blick behalten und dich auf mögliche wirtschaftliche Entwicklungen vorbereiten.
@@ -51,7 +53,7 @@ Vielen Dank, dass du diese Anwendung nutzt. Ich hoffe, sie hat dir finanziell ge
 
 
 
-Italian:
+# Italian:
 Lo scopo di questa applicazione è creare una simulazione bancaria in tre diverse valute, rendendo i calcoli facili e visibili.
 
 Puoi adattare il codice come preferisci e gestire le tue finanze utilizzando i tassi di cambio desiderati, prima di effettuare transazioni con la tua banca reale. In questo modo, potrai mantenere le tue spese più sotto controllo e prepararti a possibili scenari economici.
