@@ -23,25 +23,25 @@ API key aktifleştirme işlemini başarılı bir şekilde yapamadıysanız basit
 
 Uygulamayı kullandığınız için teşekkür ederim. Umarım finansal anlamda işinize yaramıştır :)
 # Uygulamadaki dosyalar ve işlevleri:
-bank_balance.py = Bankanın kasasında bulunan parayı veritabanı oluşturup kaydetmeyi ve diğer banka kasasında bulunan bakiyelerle ilgili işlemlerin kodlarını içerir.
+bank_balance.py : Bankanın kasasında bulunan parayı veritabanı oluşturup kaydetmeyi ve diğer banka kasasında bulunan bakiyelerle ilgili işlemlerin kodlarını içerir.
 
-choosemoney = Parabirimi seçmeniz ve kodun seçtiğiniz parabirimine göre çalışması için gerekli olan kodları içerir.
+choosemoney : Parabirimi seçmeniz ve kodun seçtiğiniz parabirimine göre çalışması için gerekli olan kodları içerir.
 
-doviz.py = İnternetten parabirimleri arasındaki fiyat hepsalama işlemleri için gerekli kodları içerir.
+doviz.py : İnternetten parabirimleri arasındaki fiyat hepsalama işlemleri için gerekli kodları içerir.
 
-faiz.py = Faiz işlemleri hesaplamak için gerekli kodları içerir.
+faiz.py : Faiz işlemleri hesaplamak için gerekli kodları içerir.
 
-kumar.py = Şans oyunları için gerekli kodları içerir.
+kumar.py : Şans oyunları için gerekli kodları içerir.
 
-lang.py = Dil değiştirmek için gerekli kodları içerir.
+lang.py : Dil değiştirmek için gerekli kodları içerir.
 
-library.py = Dil değiştirdikten sonra yazıların çevirileceği dildeki karşılığını ekrana yazdırmak için gereken sözlük yapısındaki modüldür.
+library.py : Dil değiştirdikten sonra yazıların çevirileceği dildeki karşılığını ekrana yazdırmak için gereken sözlük yapısındaki modüldür.
 
-main.py = Kullanıcı girişi, kullanıcı kaydı, para işlemleri, ve tüm fonksiyornları çalıştırıp kendi içlerindeki denetimler dışında da denetleyen menu fonksiyonunu içeririr.
+main.py : Kullanıcı girişi, kullanıcı kaydı, para işlemleri, ve tüm fonksiyornları çalıştırıp kendi içlerindeki denetimler dışında da denetleyen menu fonksiyonunu içeririr.
 
-money_transfer = Para transfer işlemleri için gerekli kodları içerir. Kendi hesaplarınız arasında dahi para transferi yapabilirsiniz. Güncel kur hesaplanıp ona göre yansıyacaktır.
+money_transfer : Para transfer işlemleri için gerekli kodları içerir. Kendi hesaplarınız arasında dahi para transferi yapabilirsiniz. Güncel kur hesaplanıp ona göre yansıyacaktır.
 
-user.py = Kayıt olma, giriş yapma, hesap oluşturma gibi daha birçok işlemin yapılması için gereken fonksiyonlar için ayrılmış bir bölümdür.
+user.py : Kayıt olma, giriş yapma, hesap oluşturma gibi daha birçok işlemin yapılması için gereken fonksiyonlar için ayrılmış bir bölümdür.
 
 
 # English:
@@ -58,16 +58,25 @@ If you are unable to activate the API key successfully, I'm confident you can re
 Thank you for using this application. I hope it has been helpful to you financially! :)
 # Files and Functions in the Application:
 
-bank_balance.py: Contains the code for creating and storing a database of the money in the bank's vault, as well as for handling operations related to the balances in other bank vaults.
-choosemoney: Contains the code necessary for selecting the currency and making sure the code works according to the selected currency.
-doviz.py: Contains the code for retrieving exchange rates between currencies from the internet.
-faiz.py: Contains the code for calculating interest operations.
-kumar.py: Contains the code for games of chance.
-lang.py: Contains the code for changing languages.
-library.py: Contains the dictionary-like structure needed to display translations in the language selected after changing it.
-main.py: Contains the functions for user login, user registration, money transactions, and running all functions, including checks beyond their internal controls.
-money_transfer: Contains the code for money transfer operations, allowing transfers even between your own accounts. The current exchange rate will be calculated and reflected accordingly.
-user.py: Contains the functions needed for operations such as registration, login, account creation, and more.
+bank_balance.py : Contains the code for creating and storing a database of the money in the bank's vault, as well as for handling operations related to the balances in other bank vaults.
+
+choosemoney : Contains the code necessary for selecting the currency and making sure the code works according to the selected currency.
+
+doviz.py : Contains the code for retrieving exchange rates between currencies from the internet.
+
+faiz.py : Contains the code for calculating interest operations.
+
+kumar.py : Contains the code for games of chance.
+
+lang.py : Contains the code for changing languages.
+
+library.py : Contains the dictionary-like structure needed to display translations in the language selected after changing it.
+
+main.py : Contains the functions for user login, user registration, money transactions, and running all functions, including checks beyond their internal controls.
+
+money_transfer : Contains the code for money transfer operations, allowing transfers even between your own accounts. The current exchange rate will be calculated and reflected accordingly.
+
+user.py : Contains the functions needed for operations such as registration, login, account creation, and more.
 
 
 # German:
@@ -85,16 +94,25 @@ Vielen Dank, dass du diese Anwendung nutzt. Ich hoffe, sie hat dir finanziell ge
 
 # Dateien und Funktionen in der Anwendung:
 
-bank_balance.py: Enthält den Code zum Erstellen und Speichern einer Datenbank des Geldes im Bankschließfach sowie zur Verwaltung von Operationen, die mit den Kontoständen in anderen Bankschließfächern zusammenhängen.
-choosemoney: Enthält den Code, der erforderlich ist, um die Währung auszuwählen und sicherzustellen, dass der Code gemäß der ausgewählten Währung funktioniert.
-doviz.py: Enthält den Code zum Abrufen von Wechselkursen zwischen Währungen aus dem Internet.
-faiz.py: Enthält den Code zur Berechnung von Zinsoperationen.
-kumar.py: Enthält den Code für Glücksspiele.
-lang.py: Enthält den Code zum Ändern der Sprache.
-library.py: Enthält die dictionary-ähnliche Struktur, die benötigt wird, um Übersetzungen in der nach dem Wechsel ausgewählten Sprache anzuzeigen.
-main.py: Enthält Funktionen für die Benutzeranmeldung, Benutzerregistrierung, Geldtransaktionen und zum Ausführen aller Funktionen, einschließlich der Überprüfungen über die internen Kontrollen hinaus.
-money_transfer: Enthält den Code für Geldtransaktionsoperationen, einschließlich Überweisungen zwischen eigenen Konten. Der aktuelle Wechselkurs wird berechnet und entsprechend berücksichtigt.
-user.py: Enthält die Funktionen, die für Operationen wie Registrierung, Anmeldung, Kontoerstellung und mehr erforderlich sind.
+bank_balance.py : Enthält den Code zum Erstellen und Speichern einer Datenbank des Geldes im Bankschließfach sowie zur Verwaltung von Operationen, die mit den Kontoständen in anderen Bankschließfächern zusammenhängen.
+
+choosemoney : Enthält den Code, der erforderlich ist, um die Währung auszuwählen und sicherzustellen, dass der Code gemäß der ausgewählten Währung funktioniert.
+
+doviz.py : Enthält den Code zum Abrufen von Wechselkursen zwischen Währungen aus dem Internet.
+
+faiz.py : Enthält den Code zur Berechnung von Zinsoperationen.
+
+kumar.py : Enthält den Code für Glücksspiele.
+
+lang.py : Enthält den Code zum Ändern der Sprache.
+
+library.py : Enthält die dictionary-ähnliche Struktur, die benötigt wird, um Übersetzungen in der nach dem Wechsel ausgewählten Sprache anzuzeigen.
+
+main.py : Enthält Funktionen für die Benutzeranmeldung, Benutzerregistrierung, Geldtransaktionen und zum Ausführen aller Funktionen, einschließlich der Überprüfungen über die internen Kontrollen hinaus.
+
+money_transfer : Enthält den Code für Geldtransaktionsoperationen, einschließlich Überweisungen zwischen eigenen Konten. Der aktuelle Wechselkurs wird berechnet und entsprechend berücksichtigt.
+
+user.py : Enthält die Funktionen, die für Operationen wie Registrierung, Anmeldung, Kontoerstellung und mehr erforderlich sind.
 
 
 # Italian:
@@ -112,16 +130,25 @@ Grazie per aver utilizzato questa applicazione. Spero che ti sia stata utile dal
 
 # File e Funzioni nell'Applicazione:
 
-bank_balance.py: Contiene il codice per creare e memorizzare un database del denaro nella cassaforte della banca, oltre a gestire le operazioni relative ai saldi nelle altre casseforti bancarie.
-choosemoney: Contiene il codice necessario per selezionare la valuta e assicurarsi che il codice funzioni in base alla valuta scelta.
-doviz.py: Contiene il codice per ottenere i tassi di cambio tra le valute da internet.
-faiz.py: Contiene il codice per calcolare le operazioni di interesse.
-kumar.py: Contiene il codice per i giochi d'azzardo.
-lang.py: Contiene il codice per cambiare lingua.
-library.py: Contiene la struttura tipo dizionario necessaria per visualizzare le traduzioni nella lingua selezionata dopo il cambiamento.
-main.py: Contiene le funzioni per il login utente, la registrazione dell'utente, le transazioni di denaro e per eseguire tutte le funzioni, comprese le verifiche al di fuori dei controlli interni.
-money_transfer: Contiene il codice per le operazioni di trasferimento di denaro, consentendo trasferimenti anche tra i propri conti. Il tasso di cambio attuale sarà calcolato e riflesso di conseguenza.
-user.py: Contiene le funzioni necessarie per operazioni come registrazione, accesso, creazione di account e altro ancora.
+bank_balance.py : Contiene il codice per creare e memorizzare un database del denaro nella cassaforte della banca, oltre a gestire le operazioni relative ai saldi nelle altre casseforti bancarie.
+
+choosemoney : Contiene il codice necessario per selezionare la valuta e assicurarsi che il codice funzioni in base alla valuta scelta.
+
+doviz.py : Contiene il codice per ottenere i tassi di cambio tra le valute da internet.
+
+faiz.py : Contiene il codice per calcolare le operazioni di interesse.
+
+kumar.py : Contiene il codice per i giochi d'azzardo.
+
+lang.py : Contiene il codice per cambiare lingua.
+
+library.py : Contiene la struttura tipo dizionario necessaria per visualizzare le traduzioni nella lingua selezionata dopo il cambiamento.
+
+main.py : Contiene le funzioni per il login utente, la registrazione dell'utente, le transazioni di denaro e per eseguire tutte le funzioni, comprese le verifiche al di fuori dei controlli interni.
+
+money_transfer : Contiene il codice per le operazioni di trasferimento di denaro, consentendo trasferimenti anche tra i propri conti. Il tasso di cambio attuale sarà calcolato e riflesso di conseguenza.
+
+user.py : Contiene le funzioni necessarie per operazioni come registrazione, accesso, creazione di account e altro ancora.
 
 
 
@@ -130,8 +157,11 @@ user.py: Contiene le funzioni necessarie per operazioni come registrazione, acce
 # What You Need to Use the Application:
 
 1- SQLite3
+
 2- SQLite3DB
+
 3- Python
+
 4- Some Python Repos
 
 # How do I install the required files?
@@ -139,25 +169,37 @@ user.py: Contiene le funzioni necessarie per operazioni come registrazione, acce
 # Arch Linux :
 
 1- $ sudo pacman -S python
+
 2- $ sudo pacman -S sqlite
+
 3- $ sudo pacman -S python-sqlite
+
 4- $ sudo pacman -S sqlitebrowser
+
 5- $ sudo pacman -S python-requests
 
 # Fedora :
 
 1- $ sudo dnf install python3
+
 2- $ sudo dnf install sqlite
+
 3- $ sudo dnf install python3-sqlite / pip install sqlite
+
 4- $ sudo dnf install python3-requests / pip install requests
+
 5- $ sudo dnf install sqlitebrowser
 
 # Debian/Ubuntu : 
 
 1- $ sudo apt-get install python3
+
 2- $ sudo apt-get install sqlite3
+
 3- $ sudo apt-get install python3-sqlite
+
 4- $ sudo apt-get install python3-requests / pip install requests
+
 5- $ sudo apt-get install sqlitebrowser
 
 
