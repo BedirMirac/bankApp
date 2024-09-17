@@ -1,4 +1,4 @@
-# bankApp 
+# Offline bank application for your financial calculations
 
 
 # Descriptions available in Turkish, English, German, and Italian:
