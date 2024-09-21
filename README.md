@@ -182,7 +182,7 @@ $ sudo pacman -S sqlitebrowser
 ```
 $ sudo pacman -S python-requests 
 ```
-# Fedora :
+### Fedora :
 ```
 $ sudo dnf install python3
 ```
@@ -198,7 +198,7 @@ $ sudo dnf install python3-requests / pip install requests
 ```
 $ sudo dnf install sqlitebrowser
 ```
-# Debian/Ubuntu : 
+### Debian/Ubuntu : 
 ```
 $ sudo apt-get install python3
 ```
