@@ -1,10 +1,10 @@
 # Offline bank application for your financial calculations
 
 
-# Descriptions available in Turkish, English, German, and Italian:
+## Descriptions available in Turkish, English, German, and Italian:
 
 
-# Türkçe:
+### Türkçe:
 
 Bu uygulamanın amacı 3 farklı parabiriminde bir banka similasyonu oluşturup hesapları rahat ve görünür şekilde yapabilmektir.
 
@@ -22,7 +22,7 @@ Bu sayede sorun çözülmüş olacak. (İşin güzel tarafı artık sadece sizin
 API key aktifleştirme işlemini başarılı bir şekilde yapamadıysanız basit bir internet araması ile sorunu kolayca çözeceğinizden eminim.
 
 Uygulamayı kullandığınız için teşekkür ederim. Umarım finansal anlamda işinize yaramıştır :)
-# Uygulamadaki dosyalar ve işlevleri:
+### Uygulamadaki dosyalar ve işlevleri:
 bank_balance.py : Bankanın kasasında bulunan parayı veritabanı oluşturup kaydetmeyi ve diğer banka kasasında bulunan bakiyelerle ilgili işlemlerin kodlarını içerir.
 
 choosemoney : Parabirimi seçmeniz ve kodun seçtiğiniz parabirimine göre çalışması için gerekli olan kodları içerir.
@@ -44,7 +44,7 @@ money_transfer : Para transfer işlemleri için gerekli kodları içerir. Kendi 
 user.py : Kayıt olma, giriş yapma, hesap oluşturma gibi daha birçok işlemin yapılması için gereken fonksiyonlar için ayrılmış bir bölümdür.
 
 
-# English:
+### English:
 The purpose of this application is to create a bank simulation in three different currencies, making calculations easy and visible.
 
 You can adjust the code as you like and manage your finances using the exchange rates you prefer before making any transactions with your real bank. This way, you can keep your expenses more measured and prepare yourself for possible economic scenarios.
@@ -56,7 +56,7 @@ Go to the Fixer.io website and create a free account. You can also check out the
 If you are unable to activate the API key successfully, I'm confident you can resolve the problem with a quick internet search.
 
 Thank you for using this application. I hope it has been helpful to you financially! :)
-# Files and Functions in the Application:
+### Files and Functions in the Application:
 
 bank_balance.py : Contains the code for creating and storing a database of the money in the bank's vault, as well as for handling operations related to the balances in other bank vaults.
 
@@ -79,7 +79,7 @@ money_transfer : Contains the code for money transfer operations, allowing trans
 user.py : Contains the functions needed for operations such as registration, login, account creation, and more.
 
 
-# German:
+### German:
 Zweck dieser Anwendung ist es, eine Bankensimulation in drei verschiedenen Währungen zu erstellen, um Berechnungen einfach und übersichtlich zu gestalten.
 
 Du kannst den Code nach Belieben anpassen und deine Finanzen mit den gewünschten Wechselkursen verwalten, bevor du Transaktionen mit deiner realen Bank durchführst. Auf diese Weise kannst du deine Ausgaben besser im Blick behalten und dich auf mögliche wirtschaftliche Entwicklungen vorbereiten.
@@ -92,7 +92,7 @@ Solltest du den API-Schlüssel nicht erfolgreich aktivieren können, bin ich sic
 
 Vielen Dank, dass du diese Anwendung nutzt. Ich hoffe, sie hat dir finanziell geholfen! :)
 
-# Dateien und Funktionen in der Anwendung:
+### Dateien und Funktionen in der Anwendung:
 
 bank_balance.py : Enthält den Code zum Erstellen und Speichern einer Datenbank des Geldes im Bankschließfach sowie zur Verwaltung von Operationen, die mit den Kontoständen in anderen Bankschließfächern zusammenhängen.
 
@@ -115,7 +115,7 @@ money_transfer : Enthält den Code für Geldtransaktionsoperationen, einschließ
 user.py : Enthält die Funktionen, die für Operationen wie Registrierung, Anmeldung, Kontoerstellung und mehr erforderlich sind.
 
 
-# Italian:
+### Italian:
 Lo scopo di questa applicazione è creare una simulazione bancaria in tre diverse valute, rendendo i calcoli facili e visibili.
 
 Puoi adattare il codice come preferisci e gestire le tue finanze utilizzando i tassi di cambio desiderati, prima di effettuare transazioni con la tua banca reale. In questo modo, potrai mantenere le tue spese più sotto controllo e prepararti a possibili scenari economici.
@@ -128,7 +128,7 @@ Se non riesci ad attivare correttamente la chiave API, sono sicuro che con una s
 
 Grazie per aver utilizzato questa applicazione. Spero che ti sia stata utile dal punto di vista finanziario! :)
 
-# File e Funzioni nell'Applicazione:
+### File e Funzioni nell'Applicazione:
 
 bank_balance.py : Contiene il codice per creare e memorizzare un database del denaro nella cassaforte della banca, oltre a gestire le operazioni relative ai saldi nelle altre casseforti bancarie.
 
@@ -156,52 +156,64 @@ user.py : Contiene le funzioni necessarie per operazioni come registrazione, acc
 
 # What You Need to Use the Application:
 
-1- SQLite3
+[SQLite3](https://www.sqlite.org/index.html)
 
-2- SQLite3DB
+[SQLiteBrowser](https://sqlitebrowser.org/)
 
-3- Python
+[Python](https://www.python.org/)
 
-4- Some Python Repos
+* Some Python Repos
 
-# How do I install the required files?
+## How do I install the required files?
 
-# Arch Linux :
-
-1- $ sudo pacman -S python
-
-2- $ sudo pacman -S sqlite
-
-3- $ sudo pacman -S python-sqlite
-
-4- $ sudo pacman -S sqlitebrowser
-
-5- $ sudo pacman -S python-requests
-
+### Arch Linux :
+```
+$ sudo pacman -S python
+```
+```
+$ sudo pacman -S sqlite
+```
+```
+$ sudo pacman -S python-sqlite
+```
+```
+$ sudo pacman -S sqlitebrowser
+```
+```
+$ sudo pacman -S python-requests 
+```
 # Fedora :
-
-1- $ sudo dnf install python3
-
-2- $ sudo dnf install sqlite
-
-3- $ sudo dnf install python3-sqlite / pip install sqlite
-
-4- $ sudo dnf install python3-requests / pip install requests
-
-5- $ sudo dnf install sqlitebrowser
-
+```
+$ sudo dnf install python3
+```
+```
+$ sudo dnf install sqlite
+```
+```
+$ sudo dnf install python3-sqlite / pip install sqlite
+```
+```
+$ sudo dnf install python3-requests / pip install requests
+```
+```
+$ sudo dnf install sqlitebrowser
+```
 # Debian/Ubuntu : 
-
-1- $ sudo apt-get install python3
-
-2- $ sudo apt-get install sqlite3
-
-3- $ sudo apt-get install python3-sqlite
-
-4- $ sudo apt-get install python3-requests / pip install requests
-
-5- $ sudo apt-get install sqlitebrowser
-
+```
+$ sudo apt-get install python3
+```
+```
+$ sudo apt-get install sqlite3
+```
+```
+$ sudo apt-get install python3-sqlite
+```
+```
+$ sudo apt-get install python3-requests / pip install requests
+```
+```
+$ sudo apt-get install sqlitebrowser
+```
 
 
 # USAGE
@@ -212,12 +224,15 @@ Make sure Git is installed on your computer. If Git is not installed, you can do
 
 
 I assume you have uploaded it to the Downloads folder.
+```
 $ git clone https://github.com/BedirMirac/bankApp.git
-
+```
+```
 $ cd Download/bankApp
-
+```
+```
 $ python main.py
-
+```
 If you have completed the necessary installations successfully, the program will open.
 
 # Final Remarks:
